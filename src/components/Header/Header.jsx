@@ -12,7 +12,6 @@ export default function Header() {
         <h1 className={`${styles.header__content__text} bold-font-style`}>{textHeader}</h1>
         <ShopButton sectionStyle={styles.header__content__btn} />
       </div>
-
     </header>
   );
 }

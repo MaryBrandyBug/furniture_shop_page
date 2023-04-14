@@ -1,0 +1,27 @@
+.block {
+    display: flex;
+    gap: 177px;
+    width: 100%;
+
+    .block__text {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        min-width: 33%;
+
+        .block__text__header {
+            width: 392px;
+        }
+
+        .block__text__link {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    img {
+        width: 57.6%;
+    }
+}
