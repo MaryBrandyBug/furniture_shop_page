@@ -14,11 +14,17 @@
         align-items: center;
         min-width: 85%;
         min-height: 60px;
-        // padding: 0 20px 0 20px;
 
         .navbar__menu__part {
             display: flex;
             gap: 16px;
+
+
+            .menu__item {
+                font-size: 15px;
+                line-height: 23px;
+                text-transform: lowercase;
+            }
         }
     }
 }
