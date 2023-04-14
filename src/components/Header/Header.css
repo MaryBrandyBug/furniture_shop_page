@@ -1,0 +1,5 @@
+.header {
+  min-width: 100%;
+  background-image: url("../../../public/images/headerPhoto.png");
+  background-size: cover;
+}

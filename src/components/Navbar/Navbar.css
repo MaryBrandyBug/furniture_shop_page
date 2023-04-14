@@ -1,0 +1,11 @@
+.header__navbar .navbar__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 85%;
+  min-height: 60px;
+  padding: 0 20px 0 20px;
+}
