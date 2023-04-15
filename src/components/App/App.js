@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <Galary />
+      <div className="galary_container">
+        <Galary />
+      </div>
     </div>
   );
 }
