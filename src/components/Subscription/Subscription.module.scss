@@ -1,0 +1,17 @@
+.subscription_container {
+    padding-top: 115px;
+
+    font-size: 45px;
+    line-height: 47px;
+    letter-spacing: 0.94px;
+
+    border-bottom: 1px solid black;
+
+    .subscription_link {
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 28px;
+
+        cursor: pointer;
+    }
+}
