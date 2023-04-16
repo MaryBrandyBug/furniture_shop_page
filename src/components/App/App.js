@@ -2,6 +2,7 @@ import './App.scss';
 import { Header } from '../Header';
 import { Galary } from '../Galary';
 import { Subscription } from '../Subscription';
+import { Footer } from '../Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="content_container">
         <Galary />
         <Subscription />
+        <Footer />
       </div>
     </div>
   );

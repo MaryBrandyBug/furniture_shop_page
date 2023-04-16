@@ -1,0 +1,30 @@
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 74px;
+    gap: 115px;
+
+    .footer__all_links_container {
+        display: flex;
+        flex-direction: row;
+        gap: 1.28%;
+
+        .footer__links {
+            width: 19%;
+
+            p {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer__references {
+        display: flex;
+        gap: 21px;
+
+        font-size: 15px;
+        line-height: 15px;
+        text-transform: lowercase;
+        color: #B3B3B3;
+    }
+}
