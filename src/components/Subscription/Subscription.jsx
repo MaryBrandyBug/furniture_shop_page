@@ -9,7 +9,9 @@ export default function Subscription() {
         <p className="regular-font-style">pour recevoir nos offres et suivre notre actualité.</p>
       </div>
       <div className={styles.subscription_link}>
-        <p className="regular-font-style">S&apos;abonner</p>
+        <div>
+          <p className="regular-font-style">S&apos;abonner</p>
+        </div>
       </div>
     </div>
   );

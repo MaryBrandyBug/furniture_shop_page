@@ -1,3 +1,5 @@
+@import '../../styles/commonStyles/colors/colors.scss';
+
 .footer_container {
     display: flex;
     flex-direction: column;
@@ -15,6 +17,12 @@
             p {
                 cursor: pointer;
             }
+            
+            p:hover {
+                text-decoration-line: underline;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 3px;
+            }
         }
     }
 
@@ -25,6 +33,6 @@
         font-size: 15px;
         line-height: 15px;
         text-transform: lowercase;
-        color: #B3B3B3;
+        color: $lightGrey;
     }
 }

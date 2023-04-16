@@ -1,3 +1,5 @@
+@import '../../styles/commonStyles/colors/colors.scss';
+
 .galary__menu {
     width: 58%;
 
@@ -6,5 +8,23 @@
         line-height: 60px;
         letter-spacing: 1.2px;
         text-transform: lowercase;
+
+        cursor: pointer;
+    }
+
+    .galary__menu__item:hover {
+        color: white;
+    }
+
+    .galary__menu__item {
+        display: inline-block;
+
+        background: linear-gradient(0deg, black, black) no-repeat left bottom / 0 var(--bg-h);
+        transition: 450ms;
+        --bg-h: 100%;
+    }
+
+    .galary__menu__item:where(:hover, :focus-visible) {
+        background-size: 100% var(--bg-h);
     }
 }

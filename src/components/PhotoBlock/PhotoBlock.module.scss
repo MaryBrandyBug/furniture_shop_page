@@ -17,6 +17,16 @@
         .smoller_block__links {
             display: flex;
             justify-content: space-between;
+
+            .smoller_block__link {
+                cursor: pointer;
+            }
+
+            .smoller_block__link:hover {
+                text-decoration-line: underline;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 7px;
+            }
         }
     }
 
@@ -27,6 +37,16 @@
         
         img {
             width: 100%;
+        }
+
+        .block__photo__link {            
+            cursor: pointer;
+        }
+        
+        .block__photo__link:hover {
+            text-decoration-line: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 7px;
         }
     }
 }
