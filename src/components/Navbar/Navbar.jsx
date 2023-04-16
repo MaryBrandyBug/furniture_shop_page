@@ -5,7 +5,7 @@ import { leftPartMenuData, rightPartMenuData, rightPartDataLang } from './data';
 export default function Navbar() {
   const leftPartMenu = leftPartMenuData.map((item) => <span className={`${styles.menu__item} regular-font-style`}>{item}</span>);
   const rightPartMenu = rightPartMenuData.map((item) => <span className={`${styles.menu__item} regular-font-style`}>{item}</span>);
-  const rightPartLang = rightPartDataLang.map((item) => <span className={`${styles.menu__item} ${styles.lang_menu} regular-font-style`}>{item}</span>);
+  const rightPartLang = rightPartDataLang.map((item) => <span className={`${styles.menu__item__lang} ${styles[item.class] || ''} regular-font-style`}>{item.lang}</span>);
   return (
     <div className={styles.header__navbar}>
       <div className={styles.navbar_logo}>

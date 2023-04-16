@@ -1,3 +1,5 @@
+@import '../../styles/commonStyles/colors/colors.scss';
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -5,10 +7,11 @@
   align-items: center;
   margin: 0 auto;
   
+  background-color: $white;
+
   overflow-x: hidden;
 
   .content_container {
     padding: 0px 18px 0px 18px;
-
   }
 }

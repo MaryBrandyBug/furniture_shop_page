@@ -1,3 +1,5 @@
+@import '../../styles/commonStyles/colors/colors.scss';
+
 .header__navbar {
     display: flex;
     justify-content: center;
@@ -21,11 +23,32 @@
             gap: 16px;
 
 
+            .current_lang {
+                color: $grey;
+            }
+
             .menu__item {
                 font-size: 15px;
                 line-height: 23px;
                 text-transform: lowercase;
+
+                cursor: pointer;
             }
+
+            .menu__item__lang {
+                font-size: 15px;
+                line-height: 23px;
+                text-transform: lowercase;
+
+                cursor: pointer;
+            }
+
+            .menu__item:hover {
+                text-decoration-line: underline;
+                text-decoration-thickness: 1px;
+                text-underline-offset: 7px;
+            }
+
         }
     }
 }
